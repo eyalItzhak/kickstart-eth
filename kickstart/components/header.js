@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "../routes";
 
 //ui-react package =>for styling
 import { Menu } from "semantic-ui-react"; //javascript side
@@ -6,12 +7,18 @@ import { Menu } from "semantic-ui-react"; //javascript side
 const Header = (props) => {
   return (
     <Menu style={{ marginTop: "10px" }}>
-      <Menu.Item>CrowdCoin</Menu.Item>
+      <Link route="/">
+        <a className="item">CrowdCoin</a>
+      </Link>
 
       <Menu.Menu position="right">
-        <Menu.Item>Campaign</Menu.Item>
+      <Link route="/">
+        <a className="item">Campaign</a>
+      </Link>
 
-        <Menu.Item>+</Menu.Item>
+      <Link route="/campaigns/new">
+        <a className="item">+</a>
+      </Link>
       </Menu.Menu>
     </Menu>
   );
