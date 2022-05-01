@@ -1,5 +1,5 @@
 
-# kickstart-eth
+# kickstart-eth (solidity and next.js)
 
 Creating a smart contract on the Ethereum network that aims to make sure that money invested for a particular topic does indeed get into the right hands.
 
