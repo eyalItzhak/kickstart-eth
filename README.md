@@ -60,7 +60,7 @@ Open http://localhost:3000 to view it in the browser
 
 ![image](https://user-images.githubusercontent.com/62293316/166163425-44a77183-ea02-4d6d-a6dc-a1b8fd256e34.png)
 
-#### After making a transfer ==> account 3 get from the contract 0.01 eth.
+#### After making a transfer => account 3 get from the contract 0.01 eth.
 
 ![image](https://user-images.githubusercontent.com/62293316/166163473-0f2d2df3-1f8c-4f66-90f1-18a3eff8c8f8.png)
 
