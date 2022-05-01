@@ -8,6 +8,8 @@ Identification and performance of contract functions based on the etherium netwo
 
 Metamask was used in this project.
 
+The identification with the etherium network and its examination of the contract assures us that it will not be possible to perform actions that are not within the authority of identity.
+
 
 
 # Deploy a contract.
