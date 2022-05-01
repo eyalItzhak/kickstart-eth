@@ -1,16 +1,19 @@
-const { createServer } =require('http');
-const next = require('next');
+//package : run in line 8
 
-const app = next({
-    dev : process.env.NODE_ENV !== 'production'
+const {createServer} =require("http")
+const next = require("next")
+
+const app = next ({
+    dev:process.env.NODE_ENV !== "production"
 });
 
-const routes = require('./routes');
-const handler = routes.getRequestHandler(app);
+const routes =require ("./routes")
+const handler = routes.getRequestHandler (app);
 
-app.prepare().then(() => {
+
+app.prepare().then(()=>{
     createServer(handler).listen(3000,(err)=>{
-        if (err) throw err;
-        console.log('Ready on localhost:3000');
+       if(err) throw err;
+       console.log('Ready on localHost:3000')
     })
 })
