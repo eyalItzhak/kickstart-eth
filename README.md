@@ -16,7 +16,7 @@ The identification with the etherium network and its examination of the contract
 
  run the deploy.js file and replace the value of account-address in factory.js file in ethereum directory with value of the same printed on console.
  
- # Run porject.
+ # Run project.
  
 #### npm install
 
